@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Secular+One");
+
+* {
+  font-family: "Secular One", sans-serif;
+  letter-spacing: 2px;
+}
+
+body {
+  /* background-color: snow; */
+  background-image: url("images/background-img/heart-regular.svg"),
+    url("images/background-img/camera-retro-solid.svg"),
+    url("images/background-img/thumbs-up-solid.svg"),
+    url("images/background-img/face-smile-regular.svg"),
+    url("images/background-img/face-smile-regular.svg"),
+    url("images/background-img/thumbs-up-solid.svg");
+  background-size: 50px, 50px, 50px, 50px, 50px, 50px;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
+    no-repeat;
+  background-position: 10vw 12vh, 85vw 15vh, 12vw 65vh, 83vw 70vh, 8vw 40vh,
+    90vw 40vh;
+  margin: 0;
+  padding: 0;
+}
+
+header h1 {
+  text-align: center;
+  letter-spacing: 3px;
+  margin: 15px;
+}
+
+div.container {
+  background-color: snow;
+  box-shadow: 2px 2px 5px 2px gray;
+  border-radius: 10px;
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.img-div {
+  margin: 10px auto;
+}
+
+.img-div img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 5px -5px 0 5px crimson;
+}
+
+.name,
+.designation,
+.review-text {
+  margin-block: 10px;
+}
+
+.review-text {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+}
+
+.designation {
+  color: rgba(49, 43, 43, 0.712);
+}
+
+i {
+  font-size: 1.4rem;
+  margin-inline: 10px;
+}
+
+div.left-right i {
+  font-size: 1.4rem;
+  cursor: pointer;
+  margin-inline: 10px;
+  transform: none;
+  float: none;
+  position: relative;
+}
+
+/* media query */
+
+@media screen and (max-width: 700px) {
+  body {
+    background: none;
+  }
+
+  div.container {
+    width: 80%;
+  }
+
+  .img-div img {
+    width: 150px;
+    height: 150px;
+  }
+}
