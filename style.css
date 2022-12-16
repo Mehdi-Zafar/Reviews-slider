@@ -6,7 +6,7 @@
 }
 
 body {
-  /* background-color: snow; */
+  background-color: #fbeee8;
   background-image: url("images/background-img/heart-regular.svg"),
     url("images/background-img/camera-retro-solid.svg"),
     url("images/background-img/thumbs-up-solid.svg"),
@@ -29,7 +29,7 @@ header h1 {
 }
 
 div.container {
-  background-color: snow;
+  background-color: #f6f1f4;
   box-shadow: 2px 2px 5px 2px gray;
   border-radius: 10px;
   padding: 10px;
